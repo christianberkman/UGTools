@@ -1,0 +1,126 @@
+{
+    "settings": {
+        "version": "2024-02-03"
+    },
+    "items": [
+        {
+            "type": "period",
+            "name": "Term 1",
+            "icon": "bi-mortarboard",
+            "start": "2024-02-05",
+            "end": "2024-05-03"
+        },
+        {
+            "type": "period",
+            "name": "Term 2",
+            "icon": "bi-mortarboard",
+            "start": "2024-05-27",
+            "end": "2024-08-23"
+        },
+        {
+            "type": "period",
+            "name": "Term 3",
+            "icon": "bi-mortarboard",
+            "start": "2024-09-16",
+            "end": "2024-12-06"
+        },
+        {
+            "type": "period",
+            "name": "Term 1 Holidays",
+            "icon": "bi-backpack",
+            "start": "2024-05-04",
+            "end": "2024-05-26"
+        },
+        {
+            "type": "period",
+            "name": "Term 2 Holidays",
+            "icon": "bi-backpack",
+            "start": "2024-08-24",
+            "end": "2024-09-15"
+        },
+        {
+            "type": "period",
+            "name": "Term 3 Holidays",
+            "icon": "bi-backpack",
+            "start": "2024-12-07",
+            "end": "2025-02-02",
+            "details": "End date is in the year 2024."
+        },
+        {
+            "type": "period",
+            "name": "PLE",
+            "icon": "bi-file-earmark-check",
+            "start": "2024-11-04",
+            "end": "2024-11-06",
+            "details": "Estimated for first full week of November"
+        },
+        {
+            "type": "event",
+            "name": "Labour Day",
+            "icon": "bi-calendar4-event",
+            "start": "2024-05-01"
+        },
+        {
+            "type": "event",
+            "name": "Martyr's Day",
+            "icon": "bi-calendar4-event",
+            "start": "2024-06-03"
+        },
+        {
+            "type": "event",
+            "name": "Heroes' Day",
+            "icon": "bi-star",
+            "start": "2024-06-09"
+        },
+        {
+            "type": "event",
+            "name": "Eid Al-Adha",
+            "icon": "bi-moon",
+            "start": "2024-06-17",
+            "details": "Date may vary and could shift one day forward."
+        },
+        {
+            "type": "event",
+            "name": "Independence Day",
+            "icon": "bi-flag",
+            "start": "2024-10-09"
+        },
+        {
+            "type": "event",
+            "name": "Christmas Day",
+            "icon": "bi-tree",
+            "start": "2024-12-25"
+        },
+        {
+            "type": "event",
+            "name": "Boxing Day",
+            "icon": "bi-tree",
+            "start": "2024-12-26"
+        },
+        {
+            "type": "event",
+            "name": "Good Friday",
+            "icon": "bi-asterisk",
+            "start": "2024-03-29"
+        },
+        {
+            "type": "event",
+            "name": "Easter Sunday",
+            "icon": "bi-asterisk",
+            "start": "2024-03-31"
+        },
+        {
+            "type": "event",
+            "name": "Easter Monday",
+            "icon": "bi-asterisk",
+            "start": "2024-04-01"
+        },
+        {
+            "type": "event",
+            "name": "Eid Al-Fitr",
+            "icon": "bi-moon",
+            "start": "2024-04-10",
+            "details": "Date may vary and could shift one day forward."
+        }
+    ]
+}

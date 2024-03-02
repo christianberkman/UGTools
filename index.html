@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UG Tools</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container">
+        <div class="row mt-4">
+            <div class="col col-md-8 col-lg-5 m-auto">
+                <h1 class="display-5">UG Tools</h1>
+
+                <hr />
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title">UG Timetable</h4>
+                        <p class="card-text">
+                            Informative overview of school terms, exam periods, holidays and public holidays in Uganda.
+                        </p>
+                        <a href="/timetable" class="stretched-link">Check the timetable</a>
+                    </div>
+                </div>                
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title">US Embassy Citizen Services Appointments</h4>
+                        <p class="card-text">
+                            Simple overview of available and fully booked appointment dates for U.S. Citizen Services at the US Embassy in Kampala.
+                        </p>
+                        <a href="/acs" class="stretched-link">See available dates</a>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title">Prepare documents for Uganda Immigration</h4>
+                        <p class="card-text">
+                            Easily crop scale down scans of your documents to the required 250kb filesize for submitting documents to Uganda Immiration. Proccessed on your device so your documents are safe.
+                        </p>
+                        <a href="/mk250" class="stretched-link">Prepare your documents</a>
+                    </div>
+                </div>                
+
+                <hr />
+
+                <p class="text-center">
+                    <a href="/timetable">Uganda Timetable</a><br />
+                    <a href="/mk250">Prepare documents for Uganda Immigration</a>
+                </p>
+
+                <p class="text-center text-muted">
+                    By Christian Berkman, 2023
+                </p>
+
+            </div><!--/col-->
+        </div><!--/row-->
+    </div><!--/conainer-->
+
+    <script>
+        // Dark mode
+
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.dataset.bsTheme = 'dark';
+        }
+    </script>
+  </body>
+</html>
