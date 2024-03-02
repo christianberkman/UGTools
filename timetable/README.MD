@@ -6,4 +6,4 @@ This project is both a code exercise and something useful for those who want to 
 View live: https://ugtools.mooo.com/timetable
 
 ## Sources
-[https://www.education.go.ug/wp-content/uploads/2023/11/SCHOOL-CALENDAR.pdf](Schools and other instututions calendar 2024, Ministry of Education)
+[Schools and other instututions Ccalendar 2024, Ministry of Education](https://www.education.go.ug/wp-content/uploads/2023/11/SCHOOL-CALENDAR.pdf)
