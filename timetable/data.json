@@ -48,11 +48,27 @@
         },
         {
             "type": "period",
-            "name": "PLE",
+            "name": "PLE (estimated)",
             "icon": "bi-file-earmark-check",
             "start": "2024-11-04",
             "end": "2024-11-06",
             "details": "Estimated for first full week of November"
+        },
+        {
+            "type": "period",
+            "name": "UACE (estimated)",
+            "icon": "bi-file-earmark-check",
+            "start": "2024-11-15",
+            "end": "2024-12-06",
+            "details": "Estimated period of UACE (A-level) exams"
+        },
+        {
+            "type": "period",
+            "name": "UCE (estimated)",
+            "icon": "bi-file-earmark-check",
+            "start": "2024-10-11",
+            "end": "2024-11-15",
+            "details": "Estimated period of UCE (O-level) exams"
         },
         {
             "type": "event",
