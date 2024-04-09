@@ -137,6 +137,41 @@
             "icon": "bi-moon",
             "start": "2024-04-10",
             "details": "Date may vary and could shift one day forward."
+        },
+        {
+            "type": "event",
+            "name": "Total Lunar Eclipse",
+            "icon" "bi-moon",
+            "start": "2025-09-07",
+            "details": "<a href='https://www.timeanddate.com/eclipse/in/uganda/kampala?iso=20250907'>Info at timeanddate.com</a>"
+        },
+        {
+            "type": "event",
+            "name": "Partial Lunar Eclipse",
+            "icon" "bi-moon",
+            "start": "2026-08-28",
+            "details": "<a href='https://www.timeanddate.com/eclipse/in/uganda/kampala?iso=20260828'>Info at timeanddate.com</a>"
+        },
+        {
+            "type": "event",
+            "name": "Partial Solar Eclipse",
+            "icon" "bi-sun",
+            "start": "2027-08-92",
+            "details": "<a href='https://www.timeanddate.com/eclipse/in/uganda/kampala?iso=20270802'>Info at timeanddate.com</a>"
+        },
+        {
+            "type": "event",
+            "name": "Total Lunar Eclipse",
+            "icon" "bi-moon",
+            "start": "2028-12-31",
+            "details": "<a href='https://www.timeanddate.com/eclipse/in/uganda/kampala?iso=20281231'>Info at timeanddate.com</a>"
+        },
+        {
+            "type": "event",
+            "name": "Total Lunar Eclipse",
+            "icon" "bi-moon",
+            "start": "2029-06-26",
+            "details": "<a href='https://www.timeanddate.com/eclipse/in/uganda/kampala?iso=20290626'>Info at timeanddate.com</a>"
         }
     ]
 }
