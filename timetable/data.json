@@ -155,7 +155,7 @@
         {
             "type": "event",
             "name": "Partial Solar Eclipse",
-            "icon" "bi-sun",
+            "icon": "bi-sun",
             "start": "2027-08-92",
             "details": "<a href='https://www.timeanddate.com/eclipse/in/uganda/kampala?iso=20270802'>Info at timeanddate.com</a>"
         },
