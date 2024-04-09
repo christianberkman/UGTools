@@ -1,6 +1,6 @@
 {
     "settings": {
-        "version": "2024-02-03"
+        "version": "2024-04-09"
     },
     "items": [
         {
@@ -172,6 +172,27 @@
             "icon": "bi-moon",
             "start": "2029-06-26",
             "details": "<a href='https://www.timeanddate.com/eclipse/in/uganda/kampala?iso=20290626'>Info at timeanddate.com</a>"
+        },
+        {
+            "type": "event",
+            "name": "Partial Solar Eclipse",
+            "icon": "bi-sun",
+            "start": "2030-11-25",
+            "details": "<a href='https://www.timeanddate.com/eclipse/in/uganda/kampala?iso=20301125'>Info at timeanddate.com</a>"
+        },
+        {
+            "type": "event",
+            "name": "Partial Solar Eclipse",
+            "icon": "bi-sun",
+            "start": "2031-05-21",
+            "details": "<a href='https://www.timeanddate.com/eclipse/in/uganda/kampala?iso=20310521'>Info at timeanddate.com</a>"
+        },
+        {
+            "type": "event",
+            "name": "Total Lunar Eclipse",
+            "icon": "bi-moon",
+            "start": "2032-10-18",
+            "details": "<a href='https://www.timeanddate.com/eclipse/in/uganda/kampala?iso=20321018'>Info at timeanddate.com</a>"
         }
     ]
 }
