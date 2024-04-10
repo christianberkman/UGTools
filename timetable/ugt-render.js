@@ -49,8 +49,10 @@ const noDetails = '<em>No details.</em>'
 
             newDiv.find('.ugt-progress').attr('style', "width: " + item.progress() + "%")
             newDiv.find('.ugt-start').text(item.start.format('ddd MMM D'))
-                newDiv.find('.ugt-progress-string').text(item.progressString())
-            newDiv.find('.ugt-end').text(item.end.format('ddd MMM D'))
+            newDiv.find('.ugt-progress-string').text(item.progressString())
+            
+            if(item.end.format('YYYY') == (new Date()).getFullYear() ) newDiv.find('.ugt-end').text(item.end.format('ddd MMM D'))
+            newDiv.find('.ugt-end').text(item.end.format('MMM D, YYYY'))
 
             newDiv.find('.ugt-weeks').text(item.weeks())
             newDiv.find('.ugt-since').text(item.startedSinceString())
@@ -75,9 +77,13 @@ const noDetails = '<em>No details.</em>'
 
             newDiv.find('.ugt-starts-in').text( item.startsInString() )
             
-            newDiv.find('.ugt-start').text(item.start.format('ddd MMM D'))
-                newDiv.find('.ugt-length-string').text(item.lengthString())
-            newDiv.find('.ugt-end').text(item.end.format('ddd MMM D'))
+            if(item.start.format('YYYY') == (new Date()).getFullYear() ) newDiv.find('.ugt-start').text(item.start.format('ddd MMM D'))
+            else newDiv.find('.ugt-start').text(item.start.format('MMM D, YYYY'))
+                
+            newDiv.find('.ugt-length-string').text(item.lengthString())
+            
+            if(item.end.format('YYYY') == (new Date()).getFullYear() ) newDiv.find('.ugt-end').text(item.end.format('ddd MMM D'))
+            else newDiv.find('.ugt-end').text(item.end.format('MMM D, YYYY'))
 
             newDiv.find('.ugt-weeks').text(item.weeksString())
             newDiv.find('.ugt-days').text(item.days())
@@ -109,7 +115,11 @@ const noDetails = '<em>No details.</em>'
         newDiv.find('.ugt-name').text(item.name)
         newDiv.find('.ugt-starts-in').text(item.startsInString())
         newDiv.find('.ugt-icon').addClass(item.icon)
-        newDiv.find('.ugt-start').text( item.start.format('dddd MMMM D') )
+
+		
+		if(item.start.format('YYYY') == (new Date()).getFullYear() ) newDiv.find('.ugt-start').text( item.start.format('dddd MMMM D') )
+        else newDiv.find('.ugt-start').text( item.start.format('dddd MMMM D, YYYY') )
+
         newDiv.find('.ugt-details').html(item.details ?? noDetails)
 
         newDiv.removeClass('d-none')
