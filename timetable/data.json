@@ -198,7 +198,7 @@
             "type": "period",
             "name": "Census 2024",
             "icon" : "bi-list-check",
-            "start": "2024-10-09",
+            "start": "2024-05-09",
             "end": "20204-05-19",
             "details": "<a href='https://www.ubos.org/census-2024/'>Uganda Bureau of Statistics</a>"
         },
