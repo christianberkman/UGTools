@@ -193,6 +193,21 @@
             "icon": "bi-moon",
             "start": "2032-10-18",
             "details": "<a href='https://www.timeanddate.com/eclipse/in/uganda/kampala?iso=20321018'>Info at timeanddate.com</a>"
+        },
+        {
+            "type": "period",
+            "name": "Census 2024",
+            "icon" : "bi-list-check",
+            "start": "2024-10-09",
+            "end": "20204-05-19",
+            "details": "<a href='https://www.ubos.org/census-2024/'>Uganda Bureau of Statistics</a>"
+        },
+        {
+            "type": "event",
+            "name": "Cencus 2024 (Public Holiday)",
+            "icon": "bi-list-check",
+            "start": "2024-05-10",
+            "details": "<a href='https://www.ubos.org/census-2024/'>Uganda Bureau of Statistics</a>"
         }
     ]
 }
