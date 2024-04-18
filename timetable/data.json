@@ -1,6 +1,6 @@
 {
     "settings": {
-        "version": "2024-04-09"
+        "version": "2024-04-18"
     },
     "items": [
         {
@@ -199,7 +199,7 @@
             "name": "Census 2024",
             "icon" : "bi-list-check",
             "start": "2024-05-09",
-            "end": "20204-05-19",
+            "end": "2024-05-19",
             "details": "<a href='https://www.ubos.org/census-2024/'>Uganda Bureau of Statistics</a>"
         },
         {
